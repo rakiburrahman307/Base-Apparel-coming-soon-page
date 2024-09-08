@@ -3,66 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- css link  -->
+    <!-- CSS link -->
     <link rel="stylesheet" href="/css/style.css" />
-    <!-- icon link  -->
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon link -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <!-- title  -->
-    <title>Base Apparel coming soon page</title>
+    <!-- Title -->
+    <title>Base Apparel Coming Soon Page</title>
   </head>
   <body>
     <section class="container">
       <div class="content-container">
-        <svg xmlns="http://www.w3.org/2000/svg" width="830" height="800"><defs><linearGradient id="a" x1="95.861%" x2="10.913%" y1="2.476%" y2="101.718%"><stop offset="0%" stop-color="#FFF1F1"/><stop offset="100%" stop-color="#FFF"/></linearGradient><linearGradient id="b" x1="95.937%" x2="10.848%" y1="2.476%" y2="101.718%"><stop offset="0%" stop-color="#FFF1F1"/><stop offset="100%" stop-color="#FFF"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" d="M0 800c48.557-184.991 167.048-301.57 355.473-349.737C543.898 402.096 688.074 252.008 788 0v800H0z" transform="rotate(180 394 400)"/><path fill="url(#b)" d="M413 800c25.696-97.814 88.4-159.455 188.112-184.924C700.824 589.608 777.12 510.25 830 377v423H413z"/></g></svg>
         <div class="text-contents">
-          <h1>We're coming soon</h1>
-          <p>
+          <div class="image-container">
+            <img src="/images/logo.svg" alt="logo" />
+          </div>
+          <h1 class="heading">
+            <span class="span-heading">W e ' r e</span><br />
+            c o m i n g <br />
+            s o o n
+          </h1>
+          <p class="paragraph">
             Hello fellow shoppers! We're currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <form action="#" method="post">
+          <!-- Corrected form element -->
+          <form class="form-items">
             <input
               type="email"
               name="email"
               id="email"
               placeholder="Your email address"
               required
+              class="input-field"
             />
-            <button type="submit">Subscribe</button>
+            <button class="submit-btn" type="submit">
+              <img src="/images/icon-arrow.svg" alt="icon-arrow" />
+            </button>
           </form>
         </div>
-        <div class="image-contant">
+        <div class="image-content">
+          <div class="image-container-2">
+            <img src="/images/logo.svg" alt="logo" />
+          </div>
           <img
-            src="/images/hero-desktop.jpg"
-            alt="hero-desktop"
-            srcset="/images/hero-mobile.jpg 300w, /images/hero-mobile.jpg 600w"
-            sizes="(max-width: 600px) 100vw, 50vw"
-          />
+          src="/images/hero-desktop.jpg" 
+          alt="hero-desktop"
+          srcset="/images/hero-mobile.jpg 767w, /images/hero-desktop.jpg 768w"
+        />
+        
         </div>
       </div>
     </section>
 
-    <footer>
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </footer>
-    <!-- script file link  -->
+    <!-- Script file link -->
     <script src="/js/script.js"></script>
   </body>
 </html>
-<!-- We're coming soon
-
-Hello fellow shoppers! We're currently building our new fashion store. 
-Add your email below to stay up-to-date with announcements and our launch deals.
-
-Email Address -->
