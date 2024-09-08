@@ -39,8 +39,8 @@
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <!-- Corrected form element -->
-          <form class="form-items">
+          <!-- form element -->
+          <form class="form-items" onsubmit="handleSubmitDoc()">
             <input
               type="email"
               name="email"
@@ -49,9 +49,11 @@
               required
               class="input-field"
             />
+            <img class="error" src="/images/icon-error.svg" alt="icon-error" />
             <button class="submit-btn" type="submit">
               <img src="/images/icon-arrow.svg" alt="icon-arrow" />
             </button>
+            <p class="show-error"></p>
           </form>
         </div>
         <div class="image-content">
@@ -59,11 +61,11 @@
             <img src="/images/logo.svg" alt="logo" />
           </div>
           <img
-          src="/images/hero-desktop.jpg" 
-          alt="hero-desktop"
-          srcset="/images/hero-mobile.jpg 767w, /images/hero-desktop.jpg 768w"
-        />
-        
+            src="/images/hero-desktop.jpg"
+            alt="hero-desktop"
+            loading="lazy"
+            srcset="/images/hero-mobile.jpg 767w, /images/hero-desktop.jpg 768w"
+          />
         </div>
       </div>
     </section>
