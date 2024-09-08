@@ -47,7 +47,7 @@ Feel free to customize and use this project as a reference or as part of your po
 Design crafted with care by **Rakibur Rahman** ✨🎨🚀  
 [LinkedIn Profile](https://www.linkedin.com/in/md-rakibur-rahman-14b33a2a4)  
 [Email Me](mailto:rakiburrahman307@gmail.com)
-[Live Demo](https://article-component-challenge-day-3.netlify.app)
+[Live Demo](https://apparel-coming-soon-page-challenge-4.netlify.app)
 
 ---
 
